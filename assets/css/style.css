@@ -75,8 +75,7 @@ h1 {
   background-color: #191919;
   color: white;
   border-radius: 20px;
-  padding: 7px 30px;
-  font-weight: lighter;
+  padding: 5px 30px;
 }
 
 .trending {
@@ -212,7 +211,7 @@ h1 {
   display: flex;
   padding: 3em 7em;
   justify-content: space-between;
-  column-gap: 1em;
+  column-gap: 6em;
 }
 
 .article-bottom {
@@ -229,6 +228,7 @@ h1 {
 .discover-content {
   display: flex;
   flex-direction: column;
+ 
 }
 
 .discover-content h3 {
@@ -240,6 +240,9 @@ h1 {
 .discover {
   display: flex;
   flex-direction: column;
+  position: sticky;
+  top: 0;
+  
 }
 
 .discover-button-area {
