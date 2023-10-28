@@ -44,8 +44,6 @@ li {
   border-bottom: 1px solid #191919;
 }
 
-
-
 #header {
   background-color: #ffc017;
   padding: 7em 7em 4em;
@@ -53,10 +51,13 @@ li {
   position: relative;
 }
 
-#m-svg {
+.svg-div {
   position: absolute;
   bottom: 0;
-  right: 0;
+  top: 0;
+  right: 2px;
+  width: 636px;
+  overflow: hidden;
 }
 
 h1 {
@@ -74,8 +75,8 @@ h1 {
   row-gap: 20px;
 }
 
-.header-content p{
-    color: #191919;
+.header-content p {
+  color: #191919;
 }
 
 .header-content button {
@@ -107,13 +108,13 @@ h1 {
 .trending-card {
   display: flex;
   /* column-gap: 20px; */
-  
+
   flex-basis: 33%;
   max-width: 400px;
 }
 
-.card-number{
-    margin-right: 20px;
+.card-number {
+  margin-right: 20px;
 }
 
 .card-number h2 {
@@ -123,12 +124,12 @@ h1 {
   color: #e6e7e6;
 }
 
-.lighter{
-    color:#757573;
+.lighter {
+  color: #757573;
 }
 
-#h2-04{
-    letter-spacing: -3.4px;
+#h2-04 {
+  letter-spacing: -3.4px;
 }
 
 .round-icon {
@@ -137,12 +138,12 @@ h1 {
 }
 
 .square-icon {
- width: 20px;
- border-radius: 5px;
+  width: 20px;
+  border-radius: 5px;
 }
 
-.star{
-    width: 20px;
+.star {
+  width: 20px;
 }
 
 .card-content h2 {
@@ -177,10 +178,10 @@ h1 {
   font-size: 13px;
 }
 
-.card-content-p-div{
-    display:flex;
-    align-items: center;
-    column-gap: 3px;
+.card-content-p-div {
+  display: flex;
+  align-items: center;
+  column-gap: 3px;
 }
 
 .trending-content {
@@ -317,7 +318,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   /* margin-top: 1.5em; */
-  
+
   line-height: 5px;
   border-top: 1px solid #e6e7e6;
   padding-top: 1.5em;
